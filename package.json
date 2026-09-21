@@ -1,0 +1,12 @@
+{
+  "name": "vbotecho-components-code-connect",
+  "private": true,
+  "scripts": {
+    "check": "tsc --noEmit && figma connect parse --skip-update-check --outFile /tmp/vbotecho-code-connect.json",
+    "publish:figma": "figma connect publish --skip-update-check"
+  },
+  "devDependencies": {
+    "@figma/code-connect": "^2.0.1",
+    "typescript": "^7.0.2"
+  }
+}
